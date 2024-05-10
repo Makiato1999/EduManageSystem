@@ -1,7 +1,7 @@
 # EduManageSystem
 A versatile educational management platform that streamlines course registration, class assignments, and user role management for students, teachers, and administrators.
 
-## Prerequisites
+## Application Deployment Guide
 Before proceeding, ensure that Docker is installed on your system. You can download and install Docker from Docker's official website.
 
 ## Pulling the Docker Image
