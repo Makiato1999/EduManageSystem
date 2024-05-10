@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f9d19ee-5623-4071-8a86-1c92ce166386" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/EasyschoolApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/annotation/FieldsValueMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/annotation/PasswordValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/aspects/LoggerAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/audit/AuditAwareImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/config/ProjectSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/constants/EasySchoolConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/controller/ContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/controller/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/controller/GlobalExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/controller/HolidaysController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/controller/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/controller/PublicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/model/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/model/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/model/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/model/Easyclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/model/Holiday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/model/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/model/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/model/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/repository/ContactRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/repository/CoursesRespository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/repository/EasyClassRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/repository/HolidaysRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/repository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/repository/RolesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/rest/ContactRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/rest/GlobalExceptionRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/rommappers/ContactRowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/security/EasySchoolUsernamePwdAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/service/ContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/validations/FieldsValueMatchValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easybytes/easyschool/validations/PasswordStrengthValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/easyschool_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/easyschool_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/style-starter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/blog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/blog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/blog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/dribbble.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/icon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/icon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/icon-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/team1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/team2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/team3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/team4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/testi1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/testi2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/testi3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/theme-change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/course_students.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/courses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/courses_enrolled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/courses_secure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/holidays.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/students.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/easybytes/easyschool/EasyschoolApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2gFid4s5xZm3IzGeV76gx2sfGwB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.EasyschoolApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xiexiaoran/Documents/GitHub/EduManageSystem&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="EduManageSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="EduManageSystem" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EasyschoolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="easyschool" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.easybytes.easyschool.EasyschoolApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-92e50af3" />
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-be841094" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f9d19ee-5623-4071-8a86-1c92ce166386" name="Changes" comment="" />
+      <created>1715299811026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715299811026</updated>
+      <workItem from="1715299812171" duration="232000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
